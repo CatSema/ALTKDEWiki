@@ -12,8 +12,8 @@ importers:
         specifier: ^6.1.2
         version: 6.1.2
       swiper:
-        specifier: ^11.2.6
-        version: 11.2.7
+        specifier: ^12.1.2
+        version: 12.1.2
       unocss:
         specifier: ^0.58.0
         version: 0.58.9(postcss@8.4.49)(rollup@4.29.1)(vite@5.4.19(@types/node@20.17.10)(less@4.2.1))
@@ -1777,6 +1777,7 @@ packages:
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   global-directory@4.0.1:
@@ -2600,8 +2601,8 @@ packages:
     resolution: {integrity: sha512-VL+lNrEoIXww1coLPOmiEmK/0sGigko5COxI09KzHc2VJXJsQ37UaQ+8quuxjDeA7+KnLGTWRyOXSLLR2Wb4jw==}
     engines: {node: '>=12'}
 
-  swiper@11.2.7:
-    resolution: {integrity: sha512-oPJCwdcjFMw3SoBM7AdB1RJzjT7JaE4Mg7TWceTmJ/i2OtF8L01Ct+5eOf48nG3trgR0wXFekWdfnTdl0eg6Pg==}
+  swiper@12.1.2:
+    resolution: {integrity: sha512-4gILrI3vXZqoZh71I1PALqukCFgk+gpOwe1tOvz5uE9kHtl2gTDzmYflYCwWvR4LOvCrJi6UEEU+gnuW5BtkgQ==}
     engines: {node: '>= 4.7.0'}
 
   tabbable@6.2.0:
@@ -5749,7 +5750,7 @@ snapshots:
 
   supports-color@9.4.0: {}
 
-  swiper@11.2.7: {}
+  swiper@12.1.2: {}
 
   tabbable@6.2.0: {}
 
